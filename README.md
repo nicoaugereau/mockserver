@@ -1,6 +1,6 @@
 # mockserver
 
-Service bouchonné avec donnéds aléatoires
+Service bouchonné avec données aléatoires
 
 Usage: 
 - node index.js
