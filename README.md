@@ -1,6 +1,6 @@
 # mockserver
 
-Mock server with random datas. 
+Mock server with random datas, based on (Casual Fake data generator)[https://www.npmjs.com/package/casual]
 
 Usage: 
 - node index.js
@@ -36,11 +36,9 @@ Add this in the `index.js`:
         number: casual.building_number,
       };
     });
-
     const data = {
       tarif: [],
     };
-
     // Create 10 values
     for (let i = 0; i < 10; i++) {
       data.tarif.push(casual.tarificateur);
