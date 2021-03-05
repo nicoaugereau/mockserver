@@ -24,6 +24,7 @@ Return these values: date, fumeur, montant, postalCode, number
 Create new folder and index files in this new folder.
 
 Add this in the `index.js`:
+
     const casual = require("casual");
     module.exports = () => {
       casual.define("tarificateur", function () {
